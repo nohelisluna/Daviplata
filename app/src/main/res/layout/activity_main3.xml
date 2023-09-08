@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@mipmap/pareja2"
+    app:layout_anchorGravity="center"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            app:srcCompat="@drawable/heder" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:translationY="-20dp"
+            app:srcCompat="@mipmap/image" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:translationY="44dp"
+            app:srcCompat="@drawable/heder2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="39dp"
+            android:layout_height="44dp"
+            android:translationY="44dp"
+            app:srcCompat="@drawable/baseline_menu_24" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="41dp"
+            android:layout_height="45dp"
+            android:layout_gravity="end"
+            app:srcCompat="@drawable/baseline_close_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="206dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center|top"
+            android:gravity="center"
+            android:text="¿Cuanto Tengo?"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:translationY="45dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="289dp"
+            android:translationY="109dp"
+            app:srcCompat="@mipmap/plata" />
+
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="47dp"
+            android:layout_height="39dp"
+            android:layout_gravity="end"
+            android:translationY="45dp"
+            app:srcCompat="@drawable/baseline_circle_notifications_24" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="115dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center|left"
+            android:translationX="40dp"
+            android:translationY="140dp"
+            app:srcCompat="@drawable/baseline_circle_24" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="115dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center|right"
+            android:translationX="-25dp"
+            android:translationY="140dp"
+            app:srcCompat="@drawable/baseline_circle_24" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="34dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center|left"
+            android:rotation="-90"
+            android:translationX="78dp"
+            android:translationY="150dp"
+            app:srcCompat="@drawable/suma1" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="34dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center|left"
+            android:rotation="0"
+            android:translationX="79dp"
+            android:translationY="150dp"
+            app:srcCompat="@drawable/suma1" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left|bottom"
+            android:gravity="center"
+            android:text="Bolsillo"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:translationX="60dp"
+            android:translationY="-230dp" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center|right"
+            android:gravity="center"
+            android:text="Mi Tarjeta Virtual"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:translationX="-40dp"
+            android:translationY="123dp" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center|right"
+            android:gravity="center"
+            android:text="$0"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:translationX="-40dp"
+            android:translationY="155dp" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="251dp"
+            android:layout_height="39dp"
+            android:layout_gravity="bottom|center"
+            android:translationY="-95dp"
+            app:srcCompat="@drawable/total" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="233dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:text="¿Cuanto Tengo En Total? $0"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:translationY="-95dp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:translationY="32dp"
+            app:srcCompat="@drawable/tiendaa" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Tienda Virtual"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:translationY="65dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left|center"
+            android:translationX="64dp"
+            android:translationY="32dp"
+            app:srcCompat="@drawable/meter_24" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:translationX="-64dp"
+            android:translationY="32dp"
+            app:srcCompat="@drawable/sacar_24" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:text="Meter Plata"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:translationX="53dp"
+            android:translationY="65dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:gravity="center"
+            android:text="Sacar Plata"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:translationX="-45dp"
+            android:translationY="65dp" />
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

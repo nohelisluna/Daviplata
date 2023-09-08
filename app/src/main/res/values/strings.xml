@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DaviPlata</string>
+    <string-array name="CD">
+        <item>Tarjeta de identidad</item>
+        <item>Cedula de ciudadania</item>
+        <item>Cedula de extrangeria</item>
+    </string-array>
+</resources>
